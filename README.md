@@ -52,10 +52,10 @@ To ensure full reproducibility and to qualify for the Coder integration track, t
 
 3. **Clone & Install:** Inside the Coder terminal, clone this repository and install the dependencies:
 ```bash
-git clone [https://github.com/beingAnujChaudhary/HeartAI_Byte2Beat.git](https://github.com/beingAnujChaudhary/HeartAI_Byte2Beat.git)
-cd HeartAI_Byte2Beat
-pip install -r requirements.txt
-
+git clone https://github.com/beingAnujChaudhary/HeartAI_Byte2Beat
+pip install uv
+uv init
+uv pip install -r requirements.txt
 ```
 
 
